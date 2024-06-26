@@ -1,0 +1,70 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Sección principal */
+.main-section {
+  position: relative;
+  height: 100; /* Ajusto la altura de imagen de fondo */
+  background-image: url("../imgs/fondo.jpg"); /* Ruta imagen de fondo */
+  background-position: right bottom; /* Ubica la imagen de fondo en la parte derecha inferior */ */
+  background-size: 50px 50px; /* Ajusta el tamaño de la imagen de fondo */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.overlay-text {
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+  padding: 30px;
+}
+
+/* Sección de productos */
+.product-section {
+  padding: 20px;
+}
+
+.product-section table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.product-section td {
+  text-align: center;
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.product img {
+  width: 250px; /* Ajusta el ancho de la imagen */
+  height: auto; /* Mantiene la proporción de la imagen */
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+/* Otros estilos existentes */
+.overlay-text {
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+  padding: 30px;
+}
+
+/* Títulos */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+  background-color: #020202;
+  color: #f3ebeb;
+  text-align: center;
+  padding: 10px 0;
+}
